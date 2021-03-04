@@ -38,7 +38,10 @@ public DoublyLinkedNode<E> previous() {
 public void setPreviousElement(DoublyLinkedNode<E> previousElement) {
 	this.previousElement = previousElement;
 }
-
+/**
+ * @param next the nextElement to set
+ * @param previos the previousElement to set
+ */
 
 public DoublyLinkedNode(E v,
                         DoublyLinkedNode<E> next,
@@ -52,7 +55,9 @@ public DoublyLinkedNode(E v,
     if (previousElement != null)
         previousElement.nextElement = this;
 }
-
+/**
+ * @param v random element
+ */
 public DoublyLinkedNode(E v)
 // post: constructs a single element
 {
