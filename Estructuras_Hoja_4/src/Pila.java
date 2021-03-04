@@ -1,3 +1,4 @@
-public abstract class Pila implements Stack{
+
+public abstract class Pila<E> implements Stack<E>{
 
 }
